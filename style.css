@@ -1,91 +1,92 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
-    line-height: 1.6;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
 }
 
 header {
-    background-color: #008080;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
+  background-color: #007BFF;  /* Changed to a vibrant blue */
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 1rem;
-}
-
-header nav ul li a {
-    color: #fff;
-    text-decoration: none;
+header p {
+  margin: 5px 0;
+  font-size: 1.2em;
 }
 
 section {
-    margin: 2rem auto;
-    padding: 1rem;
-    max-width: 800px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
 }
 
-section h2 {
-    color: #008080;
+h2 {
+  color: #007BFF;  /* Same vibrant blue as header */
+  font-size: 1.8em;
+  margin-bottom: 10px;
 }
 
-.product {
-    display: inline-block;
-    width: 30%;
-    margin: 1%;
-    text-align: center;
+.order-form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 20px auto;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
 }
 
-.product img {
-    width: 100%;
-    border-radius: 8px;
+.order-form label {
+  font-weight: bold;
+  display: block;
+  margin: 10px 0 5px;
+  font-size: 1.1em;
 }
 
-form {
-    display: flex;
-    flex-direction: column;
+.order-form input,
+.order-form textarea,
+.order-form button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 18px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1em;
 }
 
-form label {
-    margin-top: 1rem;
+.order-form input,
+.order-form textarea {
+  background-color: #f9f9f9;
 }
 
-form input, form textarea, form button {
-    margin-top: 0.5rem;
-    padding: 0.5rem;
-    border-radius: 5px;
-    border: 1px solid #ddd;
-    font-size: 1rem;
+.order-form button {
+  background-color: #007BFF;  /* Matching the header color */
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-form button {
-    background-color: #008080;
-    color: white;
-    border: none;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #005f5f;
+.order-form button:hover {
+  background-color: #0056b3;  /* Darker blue on hover */
 }
 
 footer {
-    text-align: center;
-    padding: 1rem;
-    background: #008080;
-    color: white;
-    position: relative;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+  font-size: 1.1em;
 }
